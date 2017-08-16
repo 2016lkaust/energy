@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+.queryDes {
+            width: 850px;
+            border: 1px solid #F1F1F1;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: auto;
+            height: 510px;
+            max-height: 510px;
+        }
+
+
+        .queryDes .toStuDes input[type='text'] {
+            margin: 120px 15px 0 220px;
+            height: 30px;
+            width:240px;
+            float: left;
+        }
+
+        .queryDes .toStuDes input[type='button'] {
+            background-color: #2AABD2;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            font-size: large;
+            float: left;
+            width: 50px;
+            margin: 125px 0 0 10px;
+        }
+
+        /*标签*/
+        .queryDes .tab {
+            /*text-align: center;*/
+            margin: 30px 0 20px 10px;
+        }
+
+        .queryDes .tab span {
+            border: 0;
+            margin: 10px 0 0 -5px;
+            padding: 10px 20px;
+            background-color: #F5F5F5;
+        }
+
+        .queryDes .tab span:first-child {
+            margin-left: 40px;
+        }
+
+		.queryDes .tab p {
+            background-color: #3FB4D7;
+            margin-left:200px;
+            width:120px;
+            display:inline;
+        }
+        .queryDes .tab span:hover {
+            background-color: #3FB4D7;
+        }
+        .active {
+            background-color: #3FB4D7 !important;
+            border-right: 1px #F1F1F1 solid !important;
+            border-top: 1px #F1F1F1 solid !important;
+            /*border-left: 1px #F1F1F1 solid!important;*/
+        }
+
+        /*学生个人信息表*/
+        .queryDes article .studentInfo {
+            margin: auto;
+            border: 1px solid #AEC6C9;
+            border-collapse: collapse;
+            text-align: center;
+            width: 750px;
+            height: 350px;
+        }
+
+        .queryDes article .studentInfo tr {
+            /*line-height:30px;*/
+        }
+
+        .queryDes article .studentInfo td {
+            border: 1px solid #AEC6C9;
+        }
+
+        /*奇数*/
+        .queryDes article .studentInfo td:nth-child(odd) {
+            background-color: #F1F1F1;
+            width: 100px;
+            font-weight: bold;
+        }
+
+        /*偶数*/
+        .queryDes article .studentInfo td:nth-child(even) {
+            width: 150px;
+            font-size: small;
+        }
+
+        .queryDes .line {
+            height: 0;
+            width: 100%;
+            border: 1px solid silver;
+            margin: 5px 0 0 0;
+        }
+
+        /*学生家庭情况表*/
+        .queryDes article .studentFamily {
+            margin: auto;
+            border: 1px solid #AEC6C9;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        /*.queryDes article .studentFamily tr {*/
+        /*line-height: 50px;*/
+        /*}*/
+
+        .queryDes article .studentFamily td {
+            width: 110px;
+            padding: 0 3px;
+            border: 1px solid #AEC6C9;
+        }
+
+        .queryDes article .studentFamily .resultTitle {
+            background-color: #F1F1F1;
+            line-height: 30px;
+            letter-spacing: 4px;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .queryDes article .resultTitle td:nth-child(4) {
+            width: 170px;
+        }
+
+        /*学生参加课外活动表*/
+        .queryDes article .studentActivity {
+            margin: auto;
+            border: 1px solid #AEC6C9;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .queryDes article .studentActivity td {
+            border: 1px solid #AEC6C9;
+            height: 45px;
+        }
+
+        .queryDes article .studentActivity td:nth-child(odd) {
+            width: 200px;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .queryDes article .studentActivity td:nth-child(even) {
+            width: 550px;
+            font-size: small;
+        }
