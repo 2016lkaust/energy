@@ -1,0 +1,149 @@
+@CHARSET "UTF-8";
+html,body{
+	width:90%;
+	height:100%;
+}
+.queryStu {
+	width: 850px;
+	border: 1px solid #F1F1F1;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: auto;
+	height: 610px;
+	max-height: 610px;
+}
+
+.queryStu header {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.queryStu header input[type='text'] {
+	height: 30px;
+	width: 260px;
+}
+
+.queryStu header input[type='button'] {
+	margin: 0 0 0 15px;
+	height: 30px;
+	background-color: #38B1D5;
+	border-radius: 5px;
+	color: white;
+	width: 80px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 16px;
+	border: none;
+}
+
+.queryStu div {
+	text-align: center;
+}
+
+.queryStu select {
+	margin: 0 30px 0 30px;
+	border: 1px solid #F1F1F1;
+}
+
+.pageCode {
+	/*padding: 10px 20px;*/
+	text-align: left;
+	color: #ccc;
+	text-align: center;
+}
+
+.pageCode a {
+	display: inline-block;
+	color: #428bca;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	border: 1px solid #ddd;
+	margin: 0 2px;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+.pageCode a:hover {
+	text-decoration: none;
+	border: 1px solid #428bca;
+}
+
+.pageCode span.current {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #fff;
+	background-color: #428bca;
+	border: 1px solid #428bca;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+.pageCode span.disabled {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #bfbfbf;
+	background: #f2f2f2;
+	border: 1px solid #bfbfbf;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+.queryStu article {
+	margin: 10px 0 0 0;
+	height: 100%;
+}
+
+.queryStu article table {
+	margin: auto;
+	border: 1px solid #AEC6C9;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.queryStu article table tr {
+	line-height: 25px;
+}
+
+.queryStu article table td {
+	width: auto;
+	padding: 0 3px;
+	border: 1px solid #AEC6C9;
+	font-size: small;
+}
+.queryStu table .userId:hover {
+	background-color:#f1f1f1 !important;
+}
+.queryStu article .resultTitle td {
+	color: black;
+	font-weight: bold;
+	font-size: large;
+	letter-spacing: 4px;
+}
+
+.queryStu article table .resultTitle {
+	background-color: #F1F1F1;
+	line-height: 30px;
+}
+
+.queryStu article table td:last-child {
+	font-size: smaller;
+}
+
+.queryStu article .resultTitle td:last-child {
+	font-size: large;
+}
+
+.queryStu .line {
+	height: 0;
+	width: 100%;
+	border: 1px solid silver;
+	margin: 5px 0 0 0;
+}

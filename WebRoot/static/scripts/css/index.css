@@ -1,0 +1,431 @@
+/*四大块颜色*/
+.one {
+    background-color: #F1B94C;
+}
+
+.two {
+    background-color: #C17AD6;
+}
+
+.three {
+    background-color: #65A9DA;
+}
+
+.four {
+    background-color: #1DBAA5;
+}
+
+/*居中显示*/
+.alignCenter {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+/*左侧导航栏字体*/
+.items_font {
+    font-size: 1.125em;
+    color: #FCFDFD;
+}
+
+/*左侧导航栏隐藏菜单部分字体*/
+.items_font_operate {
+    font-size: 1em;
+    color: #FCFDFD;
+}
+
+/*通知公告标题*/
+.title_font {
+    font-size: 1.375em;
+    color: black;
+    float: left;
+    font-weight: bold;
+    margin: 10px 0 0 20px;
+}
+
+.more {
+    font-size: 18px;
+    color: black;
+    float: right;
+    margin: 15px 20px 0 0;
+}
+
+/*清空*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*通用设置*/
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: large;
+}
+
+.tip a:visited {
+    color: black;
+}
+
+.tip a:link {
+    color: #65A9DA;
+}
+
+/*hr变细，实质是让边框只显示一边*/
+hr {
+    height: 0px;
+    border-top: 1px solid #999;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+/*竖线*/
+.line {
+    height: 100%;
+    width: 0px;
+    border-left: 1px solid #DDDBDC;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+/*左部导航栏*/
+nav {
+    width: 18%;
+    height: 100%;
+    float: left;
+}
+
+/*左部导航栏头像部位*/
+nav .header {
+    background-color: rgba(41, 40, 46, .9);
+    height: 200px;
+    max-height: 30%;
+}
+
+/*左部导航栏头像下标题*/
+nav .header .title {
+    color: #18E1E8;
+    font-size: 24px;
+    padding-top: 5%;
+}
+
+/*左部导航栏头像*/
+nav .header img {
+    height: 40%;
+    width: 40%;
+    margin-top: 5%;
+    border: 5px solid slategrey;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+/*左部导航栏头像下用户名*/
+nav .header .username {
+    letter-spacing: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -7%;
+}
+
+/*左部导航栏下面选项部分*/
+nav .items {
+    background-color: rgba(41, 40, 46, .9);
+    height: 475px;
+    max-height: 70%;
+}
+
+nav .items img {
+    height: 8%;
+    width: 8%;
+    margin: 8% 0 0 8%;
+}
+
+nav .items a {
+    padding: 10% 5%;
+}
+
+nav .items li {
+    line-height: 40px;
+    display: block;
+}
+
+/*学生信息里面的学生信息操作*/
+.operate ul {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.operate ul li {
+    line-height: 20px;
+    padding: 1%;
+}
+
+.operate ul li img {
+    height: 8%;
+    width: 8%;
+    margin: 5% 0 0 13%;
+}
+
+.operate ul li .right_png {
+    margin: 5% 0 0 0%;
+}
+
+.operate ul li a {
+    /*padding: 5% 5%;*/
+    margin: 5% 0 0 0;
+}
+
+/*右部*/
+.right {
+    width: 82%;
+    height: 678px;
+    float: right;
+    background-color: #F1F1F1;
+}
+
+/*右部顶部工具栏*/
+.tools {
+    width: 100%;
+    height: 7%;
+    background-color: white;
+}
+
+.tools img {
+    height: 60%;
+    width: 3%;
+    padding: 1%;
+}
+
+.tools > * {
+    float: left;
+}
+
+.tools .searchText {
+    height: 60%;
+    width: 20%;
+    margin: 1% 0 1% 1%;
+    border-radius: 15px;
+    border: 1px solid #CCCCCC;
+}
+
+.tools .searchImg {
+    height: 40%;
+    width: 2%;
+    margin-top: 1%;
+}
+
+.tools .headImg {
+    margin: 10px 0 0 40%;
+    border: 3px solid #CCCCCC;
+    border-radius: 25px;
+    padding: 0;
+}
+
+.tools .username {
+    width: 8%;
+}
+
+.tools .username span {
+    float: left;
+    margin: 15px 0 0 2%;
+}
+
+.tools .username img {
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin: 15px 0 0 0;
+}
+
+/*右边中间部分四大块*/
+.mycontent .shortcut li {
+    float: left;
+    height: 120px;
+    width: 21%;
+    margin: 4% 0 0 3%;
+    box-shadow: 4px 4px 2px 2px #E5E5E5;
+}
+
+.mycontent .shortcut img {
+    margin: 12% 0 0 10%;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+.mycontent .shortcut .items_font {
+    /*margin: 10% 0 0 20%;*/
+    position: relative;
+    left: 35%;
+    top: -30%;
+    width: 50%;
+    height: 20%;
+    display: block;
+}
+
+/*总数的数字*/
+.mycontent .shortcut .dynamic {
+    display: block;
+    position: relative;
+    font-size: 24px;
+    color: white;
+    left: 35%;
+    top: -25%;
+}
+
+/*日期部分前半段*/
+.mycontent .four .front {
+    display: block;
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+
+.mycontent .four .front #weekday {
+    position: relative;
+    left: 15%;
+    top: 20%;
+    font-size: 16px;
+    color: white;
+    display: block;
+}
+
+.mycontent .four .front #day {
+    position: relative;
+    left: 25%;
+    top: 25%;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+.mycontent .four .front #month {
+    position: relative;
+    left: 55%;
+    top: 5%;
+    font-size: 16px;
+    color: white;
+    display: block;
+}
+
+/*日期部分后半段*/
+.mycontent .four .time {
+    display: block;
+    background-color: white;
+    width: 55%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mycontent .four .time #time {
+    position: relative;
+    left: 0px;
+    top: 35%;
+    font-size: 30px;
+    color: #1DB9A5;
+}
+
+.mycontent .tip > li {
+    height: 330px;
+    width: 45%;
+    float: left;
+    background-color: white;
+    box-shadow: 5px 5px 2px 2px #E5E5E5;
+    margin: 4% 1% 0 3%;
+}
+
+.tip hr {
+    margin-top: 10%;
+    width: 100%;
+    border-color: #CCCCCC;
+}
+
+/*备忘录*/
+.backlog ul {
+    position: relative;
+    left: 5%;
+    display: block;
+    width: 60%;
+}
+
+.backlog ul li {
+    font-size: 16px;
+    padding: 3% 0;
+}
+
+.backlog #indicatorContainer {
+    display: block;
+    height: 50%;
+    width: 18%;
+    position: relative;
+    top: -28%;
+    left: 65%;
+}
+
+/*通知公告*/
+.inform ul {
+    display: block;
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.inform ul li {
+    font-size: 16px;
+    margin: 2% 0;
+}
+
+.inform ul img {
+    height: 15px;
+    margin: 4px 10px 0 0;
+}
+
+.inform li .title {
+    font-size: 16px;
+    width: 70%;
+    overflow: hidden;
+}
+
+/*鼠标移过*/
+.shortcut li:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .4);
+    cursor: hand;
+}
+
+.left .items li:hover {
+    background-color: #23AEB3;
+    cursor: hand;
+}
+
+.left .items .operate {
+    display: none;
+}
+
+.left .items .operate:hover {
+    background-color: rgba(41, 40, 46, .9);
+    cursor: hand;
+}
+
+.backlog li:hover {
+    background-color: #F1F1F1;
+    cursor: hand;
+}
+
+.inform li:hover {
+    background-color: #F1F1F1;
+    cursor: hand;
+}
